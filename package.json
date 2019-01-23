@@ -1,0 +1,15 @@
+{
+  "name": "debug-the-internet",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "$(yarn bin)/simplehttpserver ."
+  },
+  "repository": "git@github.com:stuartha13/debug-the-internet.git",
+  "author": "Stuart Hammar <shammar@prodigyfinance.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simplehttpserver": "^0.3.0"
+  }
+}
