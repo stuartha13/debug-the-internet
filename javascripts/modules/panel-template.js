@@ -3,7 +3,7 @@ export const panelTemplate = (jsonContent) => {
 
   return `
   <div class="col col--auto">
-    <div class="panel">
+    <div class="panel animate">
       <div class="panel__head">
         <h3>${title}</h3>
       </div>
