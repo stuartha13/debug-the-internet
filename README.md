@@ -5,6 +5,13 @@
 brew install node
 ```
 
+# Get up and running (Short version)
+```sh
+npx simplehttpserver
+```
+
+# Get up and running (Longer version)
+
 ### Install Yarn
 ```sh
 brew install yarn
