@@ -1,4 +1,8 @@
 /* Add some custom CSS here */
+.bg--blue {
+  background-color: #a1d9f7;
+}
+
 .animate {
   animation-duration: 300ms;
   animation-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);

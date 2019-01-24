@@ -27,7 +27,7 @@
 
   <main class="main">
     <!-- 1. There isn't much space between the container and the navigation. Are there any classes we can add? -->
-    <section class="container">
+    <section class="container container--space-y">
       <header>
         <!-- 2. Can we make this heading a bit smaller, but without changing the HTML tag? -->
         <h1 class="heading">Debunking debugging</h1>
@@ -40,19 +40,19 @@
 
     <!-- 3. Which other background colours can we set here? Can you make it blue for me by adding your own CSS class? -->
     <!-- 4. Also, can you add some space around it? -->
-    <section class="bg">
+    <section class="bg bg--blue bg--space-y">
       <!-- 5. Looks like something's wrong here. Why is this text up against the side of the page? -->
-      <div class="contain">
+      <div class="container">
         <header>
-          <h1>Random Todo Item</h1>
+          <h1>Random Content Generator</h1>
         </header>
 
         <div class="row-spacer">
-          <!-- Notice anything interesting on the button? -->
-          <button class="btn btn-primary" data-content-fetcher>Fetch me content!</button>
+          <!-- Notice anything interesting on the button? Maybe some JS? -->
+          <button class="btn btn--primary" data-content-fetcher>Fetch me content!</button>
         </div>
 
-        <!-- And here? What are these even being used for? -->
+        <!-- And here? What are these even being used for? Maybe some JS too? -->
         <div class="row" data-content-list></div>
       </div>
     </section>

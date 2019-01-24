@@ -8,12 +8,13 @@ const appendContent = (jsonContent) => {
   const content = panelTemplate(jsonContent);
   const contentHtml = htmlToNodes(content);
 
-  // placementNode.appendChild(contentHtml);
+  placementNode.appendChild(contentHtml);
 }
 
 const requestNewContent = () => {
   // Can we fetch a random photo each time? The IDs are between 1 and 5000
-  fetch(contentUrl())
+  const randomNumber = Math.random() * 5000;
+  fetch(contentUrl(Math.round(randomNumber)))
     .then(response => {
       if(response.status !== 200) {
         console.error(`Status code: ${response.status}. Something has gone horribly wrong!`);

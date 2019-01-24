@@ -2,8 +2,8 @@ export const panelTemplate = (jsonContent) => {
   const { albumId, title, thumbnailUrl } = jsonContent;
 
   return `
-  <div class="col col--auto">
-    <div class="panel animate">
+  <div class="col col--1/5-small">
+    <div class="panel animate animate--fade-in">
       <div class="panel__head">
         <h3>${title}</h3>
       </div>
